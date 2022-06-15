@@ -1,9 +1,12 @@
-import { Button } from "./Button";
+import { Post } from "./Post";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <>
-      <Button />
+      <Header />
+
+      <Post />
     </>
   );
 }
