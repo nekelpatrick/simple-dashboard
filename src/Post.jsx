@@ -1,3 +1,8 @@
-export const Post = () => {
-  return <h1>Post</h1>;
+export const Post = (props) => {
+  return (
+    <>
+      <b> {props.author}</b>
+      <p> {props.content}</p>{" "}
+    </>
+  );
 };
